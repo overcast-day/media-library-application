@@ -1,0 +1,15 @@
+{
+    "name": "Favorites",
+    "Books": [
+        {
+            "Title": "oof",
+            "Author": "boop",
+            "Genres": ""
+        },
+        {
+            "Title": "I want to cry",
+            "Author": "me",
+            "Genres": ""
+        }
+    ]
+}
