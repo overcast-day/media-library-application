@@ -1,4 +1,4 @@
-# Computer Science 210 Personal Project 2021
+# Personal Project
 
 ## A Media Library Application 
 
@@ -7,19 +7,18 @@ all the media, books and reading material in the collection.
 
 _________________
 
-Users can *(will be able to)*:
+Users can:
 - Browse current titles in the catalogue
 - Add new titles to the catalogue
 - Add and or edit the genre of existing titles
 - Discover new and old stories by title and genre
-- Add and remove the best stories into their 'Favorites' *(TBA)*
+- Add and remove the best stories into their 'Favorites'
 
 _________________
 *Anyone* can use the application, **particularly** if you love reading and keeping track of 
 your reading list.
 
-I am making this project for myself, as I always found myself struggling to 
-remember and stay on top of the numerous books and ongoing series I've read or stopped reading.
+I am making this project for myself and others like me who would like to stay on top of the numerous books and ongoing series they've read or are still reading.
 
  >“A reader lives a thousand lives before he dies; The man who never reads lives only one.”
 ― George R.R. Martin, A Dance with Dragons
@@ -35,11 +34,12 @@ _________________
 - As a user, I want to be able to save my library and favorites catalogue to file 
 - As a user, I want to be able to be able to load my catalogues from file 
 - As a user, I want to be able to load and save the state of the application
-- As a user, I want to have the option to add a book I add to Library to my Favorites catalogue
+- As a user, I want to have the option to easily add a book I add to Library to my Favorites 
 
 _________________
 
 ## Phase 4: Task 2
+### Examples of logs that print as the applications runs
 Fri Nov 26 12:04:47 PST 2021
 0 by Last&First was added to the catalogue Library
 
@@ -97,3 +97,5 @@ If I had more time, I would...
 extend it to other media types that libraries usually have such as Comics and DvDs and Audiobooks
 - Create a Library class that contains a list of all catalogues, so users can have the option of creating 
 their own catalogue and are not just limited to 'Library' and 'Favorites'.
+
+As my project is currently configured, users can only interact with the GUI that displays LibraryAppUI using Swing. It does not make use of the LibraryApp class and does not allow users to interact with the app through the console. However, both are implemented.
